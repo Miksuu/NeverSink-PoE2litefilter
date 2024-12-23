@@ -49,6 +49,11 @@ Download the latest release from github.
 4) INGAME: Escape -> Options -> Game -> Filters -> Select the filter from the dropdown box.
 5) Done. Enjoy.
 
+### **OPTIONAL: Add symlink on Windows**
+- Navigate to this directory.
+- Run the following command:
+```powershell -ExecutionPolicy Bypass -File .\CreateSymlinkWindows.ps1```
+
 ## **SUPPORT:**
 
 The filter itself will always be free, including updates.
