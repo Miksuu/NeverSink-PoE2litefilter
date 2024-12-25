@@ -480,7 +480,7 @@ SetFontSize 35
 # AreaLevel > 75
 # Rarity <= Magic
 # DropLevel < 64
-#Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+# Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
 
 # Hide
 # AreaLevel > 73
