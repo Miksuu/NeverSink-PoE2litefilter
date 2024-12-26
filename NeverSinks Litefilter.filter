@@ -441,7 +441,7 @@ SetBorderColor 200 200 200
 SetFontSize 35
 PlayEffect Grey
 MinimapIcon 1 Grey Square
-PlayAlertSound 7 300
+PlayAlertSound 8 300
 
 Show
 Sockets > 0
