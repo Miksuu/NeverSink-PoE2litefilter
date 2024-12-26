@@ -199,7 +199,9 @@ PlayAlertSound 2 300
 Show 
 BaseType " Rune" " Charm"
 SetTextColor 0 240 190
-PlayEffect Cyan Temp
+MinimapIcon 1 Cyan Diamond
+PlayEffect Cyan
+PlayAlertSound 2 300
 
 #--------------------------
 # Scroll of Wisdom High Level Hiding
