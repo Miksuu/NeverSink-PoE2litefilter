@@ -410,16 +410,11 @@ PlayAlertSound 14 300
 Show
 Rarity Normal
 Class "Rings" "Amulets" "Belts"
-SetFontSize 40
+SetFontSize 25
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 PlayEffect White
 MinimapIcon 1 White Square
-
-Show
-Class "Rings" "Amulets" "Belts"
-Rarity Magic
-SetFontSize 40
 
 #--------------------------
 # Salvagable Items
@@ -588,7 +583,7 @@ MinimapIcon 1 White Square
 PlayAlertSound 16 300
 
 Show
-# Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+# Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Belts" "Rings" "Amulets"
 Rarity Magic
 SetTextColor 0 155 255
 SetBorderColor 0 0 255
