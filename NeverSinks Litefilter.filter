@@ -91,7 +91,7 @@ SetFontSize 40
 
 # Make support gems pop during campaign
 Show
-AreaLevel < 68
+AreaLevel <= 100
 BaseType "Uncut Support Gem"
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
