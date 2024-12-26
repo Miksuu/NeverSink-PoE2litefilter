@@ -353,8 +353,8 @@ SetTextColor 255 207 255
 SetBorderColor 255 207 255
 SetBackgroundColor 65 20 80
 PlayAlertSound 2 300
-PlayEffect Grey
-MinimapIcon 1 Grey Square
+PlayEffect Pink
+MinimapIcon 1 Pink Square
 SetFontSize 40
 
 #--------------------------
@@ -401,6 +401,7 @@ SetTextColor 233 206 75
 SetBorderColor 233 206 75
 PlayEffect Yellow
 MinimapIcon 1 Yellow Diamond
+PlayAlertSound 14 300
 
 #--------------------------
 # Rings, Amulets, Belts
@@ -429,24 +430,36 @@ Sockets > 0
 Rarity Normal
 SetBorderColor 200 200 200
 SetFontSize 35
+PlayEffect Grey
+MinimapIcon 1 Grey Square
+PlayAlertSound 7 300
 
 Show
 Quality > 0
 Rarity Normal
 SetBorderColor 200 200 200
 SetFontSize 35
+PlayEffect Grey
+MinimapIcon 1 Grey Square
+PlayAlertSound 7 300
 
 Show
 Sockets > 0
 Rarity Magic
 SetBorderColor 0 0 200
 SetFontSize 35
+PlayEffect Grey
+MinimapIcon 1 Grey Square
+PlayAlertSound 7 300
 
 Show
 Quality > 0
 Rarity Magic
 SetBorderColor 0 0 200
 SetFontSize 35
+PlayEffect Grey
+MinimapIcon 1 Grey Square
+PlayAlertSound 7 300
 
 #--------------------------
 # Random Rares
@@ -463,6 +476,11 @@ SetFontSize 35
 Show
 Rarity Rare
 SetFontSize 35
+SetTextColor 255 215 0
+SetBorderColor 255 215 0
+PlayEffect Yellow
+MinimapIcon 1 Yellow Square
+PlayAlertSound 14 300
 
 #--------------------------
 # Hide Rules (only high level), super light edition
@@ -554,7 +572,7 @@ BaseEnergyShield > 1
 Rarity Normal
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
-SetFontSize 40
+SetFontSize 25
 PlayEffect White
 MinimapIcon 1 White Square
 PlayAlertSound 16 300
@@ -564,7 +582,7 @@ Class "Staves" "Wands"
 Rarity Normal
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
-SetFontSize 40
+SetFontSize 25
 PlayEffect White
 MinimapIcon 1 White Square
 PlayAlertSound 16 300
@@ -575,7 +593,17 @@ BaseEnergyShield > 1
 Rarity Normal
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
-SetFontSize 40
+SetFontSize 25
 PlayEffect White
 MinimapIcon 1 White Square
 PlayAlertSound 16 300
+
+Show
+# Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows"
+Rarity Magic
+SetTextColor 0 155 255
+SetBorderColor 0 0 255
+SetFontSize 30
+PlayEffect Blue
+MinimapIcon 1 Blue Square
+PlayAlertSound 15 300
