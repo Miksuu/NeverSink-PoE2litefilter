@@ -13,6 +13,45 @@
 # PATREON: https://www.patreon.com/Neversink
 
 #--------------------------
+# Custom
+#--------------------------
+
+Show
+Class "Body Armours" "Gloves" "Boots" "Helmets" "Foci"
+BaseEnergyShield > 1
+BaseArmour 0
+BaseEvasion 0
+DropLevel >= 65
+Rarity Normal
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetFontSize 25
+PlayEffect White
+MinimapIcon 1 White Square
+PlayAlertSound 16 300
+
+Show
+Class == "Staves" "Wands"
+DropLevel >= 65
+Rarity Normal
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetFontSize 25
+PlayEffect White
+MinimapIcon 1 White Square
+PlayAlertSound 16 300
+
+Show
+# Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Belts" "Rings" "Amulets"
+Rarity Magic
+SetTextColor 0 155 255
+SetBorderColor 0 0 255
+SetFontSize 30
+PlayEffect Blue
+MinimapIcon 1 Blue Square
+PlayAlertSound 13 300
+
+#--------------------------
 # Overrides - Uniques, Valuables
 #--------------------------
 
@@ -564,42 +603,3 @@ PlayAlertSound 14 300
 
 Show
 BaseType == "Expert Laced Boots"
-
-#--------------------------
-# Custom
-#--------------------------
-
-Show
-Class "Body Armours" "Gloves" "Boots" "Helmets" "Foci"
-BaseEnergyShield > 1
-BaseArmour 0
-BaseEvasion 0
-DropLevel <= 65
-Rarity Normal
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetFontSize 25
-PlayEffect White
-MinimapIcon 1 White Square
-PlayAlertSound 16 300
-
-Show
-Class == "Staves" "Wands"
-DropLevel <= 65
-Rarity Normal
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
-SetFontSize 25
-PlayEffect White
-MinimapIcon 1 White Square
-PlayAlertSound 16 300
-
-Show
-# Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Belts" "Rings" "Amulets"
-Rarity Magic
-SetTextColor 0 155 255
-SetBorderColor 0 0 255
-SetFontSize 30
-PlayEffect Blue
-MinimapIcon 1 Blue Square
-PlayAlertSound 13 300
