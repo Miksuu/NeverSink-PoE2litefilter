@@ -408,33 +408,33 @@ SetFontSize 40
 # Waystones
 #--------------------------
 
-Show
-WaystoneTier < 10
-AreaLevel > 77
-BaseType "Waystone"
-Rarity <= Rare
-SetTextColor 255 192 203
-SetBorderColor 255 192 203
-SetFontSize 35
+#Show
+#WaystoneTier < 10
+#AreaLevel > 77
+#BaseType "Waystone"
+#Rarity <= Rare
+#SetTextColor 255 192 203
+#SetBorderColor 255 192 203
+#SetFontSize 35
 
-Show
-WaystoneTier < 5
-AreaLevel > 74
-BaseType "Waystone"
-Rarity <= Rare
-SetTextColor 255 192 203
-SetBorderColor 255 192 203
-SetFontSize 35
+#Show
+#WaystoneTier < 5
+#AreaLevel > 74
+#BaseType "Waystone"
+#Rarity <= Rare
+#SetTextColor 255 192 203
+#SetBorderColor 255 192 203
+#SetFontSize 35
 
-Show
-BaseType "Waystone"
-Rarity <= Rare
-SetTextColor 255 192 203
-SetBorderColor 255 192 203
-PlayAlertSound 4 300
-PlayEffect Pink
-MinimapIcon 1 Pink Square
-SetFontSize 40
+#Show
+#BaseType "Waystone"
+#Rarity <= Rare
+#SetTextColor 255 192 203
+#SetBorderColor 255 192 203
+#PlayAlertSound 4 300
+#PlayEffect Pink
+#MinimapIcon 1 Pink Square
+#SetFontSize 40
 
 #--------------------------
 # Value Rares
