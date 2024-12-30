@@ -602,4 +602,4 @@ SetBorderColor 0 0 255
 SetFontSize 30
 PlayEffect Blue
 MinimapIcon 1 Blue Square
-PlayAlertSound 15 300
+PlayAlertSound 13 300
