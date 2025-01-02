@@ -21,7 +21,7 @@ Class "Body Armours" "Gloves" "Boots" "Helmets" "Foci"
 BaseEnergyShield > 1
 BaseArmour 0
 BaseEvasion 0
-DropLevel >= 65
+DropLevel >= 75
 Rarity Normal
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
