@@ -481,14 +481,14 @@ MinimapIcon 1 White Square
 # Salvagable Items
 #--------------------------
 
-Show
-Sockets > 0
-Rarity Normal
-SetBorderColor 225 225 225
-SetFontSize 35
-PlayEffect Grey
-MinimapIcon 1 Grey Square
-PlayAlertSound 7 300
+#Show
+#Sockets > 0
+#Rarity Normal
+#SetBorderColor 225 225 225
+#SetFontSize 35
+#PlayEffect Grey
+#MinimapIcon 1 Grey Square
+#PlayAlertSound 7 300
 
 Show
 Quality > 0
