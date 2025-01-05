@@ -55,15 +55,15 @@ PlayEffect White
 MinimapIcon 1 White Square
 PlayAlertSound 16 300
 
-Show
+#Show
 # Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "One Hand Maces" "Two Hand Maces" "Quarterstaves" "Bows" "Crossbows" "Belts" "Rings" "Amulets"
-Rarity Magic
-SetTextColor 0 155 255
-SetBorderColor 0 0 255
-SetFontSize 30
-PlayEffect Blue
-MinimapIcon 1 Blue Square
-PlayAlertSound 13 300
+#Rarity Magic
+#SetTextColor 0 155 255
+#SetBorderColor 0 0 255
+#SetFontSize 30
+#PlayEffect Blue
+#MinimapIcon 1 Blue Square
+#PlayAlertSound 13 300
 
 #--------------------------
 # Overrides - Uniques, Valuables
