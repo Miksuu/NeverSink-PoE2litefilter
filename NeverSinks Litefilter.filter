@@ -544,6 +544,7 @@ SetTextColor 255 255 255
 SetBorderColor 255 255 255
 PlayEffect White
 MinimapIcon 1 White Square
+PlayAlertSound 12 300
 
 Show
 Class "Rings" "Amulets" "Belts"
