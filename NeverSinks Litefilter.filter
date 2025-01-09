@@ -28,7 +28,7 @@ SetBorderColor 255 255 255
 SetFontSize 25
 PlayEffect White
 MinimapIcon 1 White Square
-PlayAlertSound 16 300
+PlayAlertSound 12 300
 
 Show
 Class "Body Armours"
@@ -42,7 +42,7 @@ SetBorderColor 255 255 255
 SetFontSize 25
 PlayEffect White
 MinimapIcon 1 White Square
-PlayAlertSound 16 300
+PlayAlertSound 12 300
 
 Show
 Class == "Staves" "Wands"
@@ -53,7 +53,7 @@ SetBorderColor 255 255 255
 SetFontSize 25
 PlayEffect White
 MinimapIcon 1 White Square
-PlayAlertSound 16 300
+PlayAlertSound 12 300
 
 Show
 Class == "Staves" "Wands"
