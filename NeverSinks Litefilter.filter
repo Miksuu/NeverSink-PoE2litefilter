@@ -293,6 +293,7 @@ BaseType == "Sapphire Ring" "Stellar Amulet" "Heavy Belt"
 SetBorderColor 0 240 190
 SetFontSize 40
 MinimapIcon 2 Cyan Diamond
+PlayAlertSound 9
 
 # Special A Tier - Sanctum Relics
 Show 
